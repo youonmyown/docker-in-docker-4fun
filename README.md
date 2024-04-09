@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/youonmyown/docker-in-docker-4fun/actions/workflows/docker-image.yml/badge.svg)](https://github.com/youonmyown/docker-in-docker-4fun/actions/workflows/docker-image.yml)
+
 ## How to run Docker in Docker container:
 Copy Dockerfile.
 
