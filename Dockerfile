@@ -14,4 +14,6 @@ RUN echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.g
 RUN apt-get update
 RUN apt-get install -y docker-ce docker-ce-cli containerd.io
 
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+
 CMD ["sh", "-c", "exec dockerd && exec /bin/bash"]
